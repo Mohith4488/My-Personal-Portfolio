@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import profileImage from './Assets/img.jpg';
+
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
 
       <section className="hero" id="home">
         <div className="hero-content">
-          <img src="https://paintings.pinotspalette.com/some-beach-tv.jpg?v=10041075&_gl=1*1bqnmxb*_gcl_au*MTU3NDk0OTM4MC4xNzQ0MDEzMTA0*_ga*MTY4ODcwMjM3My4xNzQ0MDEzMDk4*_ga_V19754W2BW*MTc0NDAxMzA5OC4xLjEuMTc0NDAxMzEwNC41NC4wLjA" alt="Your Photo" className="profile-pic" />
+        <img src={profileImage} alt="Mohit's profile photo" className="profile-img" />
+
           <h1>Your Name</h1>
           <h2>Frontend Web Developer</h2>
           <p>Welcome to my portfolio website! I build modern, responsive web apps using React.</p>
