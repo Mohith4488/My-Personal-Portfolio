@@ -18,7 +18,8 @@ function App() {
 
       <section className="hero" id="home">
         <div className="hero-content">
-        <img src={profileImage} alt="Mohit's profile photo" className="profile-img" />
+        <img src={profileImage} alt="Portrait of Mohit" className="profile-img" />
+
 
           <h1>Your Name</h1>
           <h2>Frontend Web Developer</h2>
