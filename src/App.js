@@ -22,7 +22,7 @@ function App() {
 
 
 
-          <h1>Your Name</h1>
+          <h1>Mohith Gowda J P</h1>
           <h2>Frontend Web Developer</h2>
           <p>Welcome to my portfolio website! I build modern, responsive web apps using React.</p>
         </div>
