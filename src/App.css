@@ -23,7 +23,7 @@ html {
 
 .navbar li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #007965;
   transition: color 0.3s;
@@ -53,11 +53,10 @@ section {
 }
 
 .hero {
-  background: linear-gradient(to right, #00c9a7, #007965); 
+  background: linear-gradient(135deg, #00c9a7 40%, #007965 70%);
   color: white;
   padding: 80px 20px;
 }
-
 
 .hero-content {
   max-width: 800px;
