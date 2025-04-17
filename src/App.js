@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import profileImage from './Assets/img.jpg';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
+import { SiExpress, SiMongodb } from 'react-icons/si';
+
 
 
 function App() {
@@ -70,14 +73,14 @@ function App() {
   <div className="skills-content">
     <h2>My Skills</h2>
     <div className="skills-grid">
-      <div className="skill-card">HTML</div>
-      <div className="skill-card">CSS</div>
-      <div className="skill-card">JavaScript</div>
-      <div className="skill-card">React</div>
-      <div className="skill-card">Node.js</div>
-      <div className="skill-card">Express</div>
-      <div className="skill-card">MongoDB</div>
-      <div className="skill-card">Git & GitHub</div>
+      <div className="skill-card"><FaHtml5 color="#e34c26" size="2em" /> <p>HTML</p></div>
+      <div className="skill-card"><FaCss3Alt color="#264de4" size="2em" /> <p>CSS</p></div>
+      <div className="skill-card"><FaJs color="#f0db4f" size="2em" /> <p>JavaScript</p></div>
+      <div className="skill-card"><FaReact color="#61dbfb" size="2em" /> <p>React</p></div>
+      <div className="skill-card"><FaNodeJs color="#68a063" size="2em" /> <p>Node.js</p></div>
+      <div className="skill-card"><SiExpress color="#000000" size="2em" /> <p>Express</p></div>
+      <div className="skill-card"><SiMongodb color="#4db33d" size="2em" /> <p>MongoDB</p></div>
+      <div className="skill-card"><FaGitAlt color="#f1502f" size="2em" /> <p>Git & GitHub</p></div>
     </div>
   </div>
 </section>

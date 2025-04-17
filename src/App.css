@@ -165,18 +165,31 @@ body {
 }
 
 .skill-card {
-  background-color: #f2f2f2;
-  padding: 15px 25px;
-  font-size: 18px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 130px;
+  height: 130px;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-card:hover {
-  transform: translateY(-5px);
-  background-color: #e6e6e6;
+  transform: translateY(-8px);
+  background-color: #f0f8ff;
 }
+
+.skill-card p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
 
 .contact-section {
   background-color: #f4f4f4;
