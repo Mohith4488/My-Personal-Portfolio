@@ -25,21 +25,22 @@ function App() {
 
 
 
-          <h1>Mohith Gowda J P</h1>
-          <h2>Frontend Web Developer</h2>
-          <p>Welcome to my portfolio website! I build modern, responsive web apps using React.</p>
+          <h1>Hello!</h1>
+          <h2>I'm Mohith Gowda J P</h2>
+          <p>I'm a curious and creative computer science enthusiast who loves building impactful full-stack solutions and solving real-world problems through code.</p>
         </div>
       </section>
 
       <section className="about" id="about">
         <div className="about-content">
-          <h2>About Me</h2>
-          <p>
-            Hello! I'm a passionate developer currently learning full-stack development. I love building modern and responsive web apps using HTML, CSS, JavaScript, and React.
-          </p>
-          <p>
-            I'm always curious to learn new things and improve my skills every day. This portfolio showcases my journey, my work, and my interests in web development.
-          </p>
+        <h2>About Me</h2>
+<p>
+  A curious and creative computer science enthusiast, currently diving deep into full-stack development. I enjoy crafting responsive and modern web apps using HTML, CSS, JavaScript, and React.
+</p>
+<p>
+  Passionate about turning ideas into impactful code, I'm always eager to learn, grow, and collaborate on real-world projects. This portfolio reflects my journey, skills, and love for building meaningful solutions.
+</p>
+
         </div>
       </section>
 
@@ -47,26 +48,33 @@ function App() {
   <div className="projects-content">
     <h2>Projects</h2>
     <div className="project-cards">
+    
       <div className="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A responsive personal portfolio built with React, HTML, and CSS.</p>
-        <p><strong>Tech Stack:</strong> React, CSS</p>
+        <h3>Future Diary</h3>
+        <p>An interactive and creative time capsule web app where users can write messages to their future selves, get AI predictions, and enjoy engaging UI effects.</p>
+        <p><strong>Tech Stack:</strong> React, JavaScript, CSS, react-confetti, custom AI logic</p>
+        <p>
+          <a href="https://send2future.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: '#007965', textDecoration: 'underline' }}>
+            Live Demo
+          </a>
+        </p>
       </div>
 
       <div className="project-card">
-        <h3>Weather App</h3>
-        <p>Fetches real-time weather data using an API and displays forecasts.</p>
-        <p><strong>Tech Stack:</strong> JavaScript, HTML, CSS, OpenWeatherMap API</p>
+        <h3>Flashback Reader</h3>
+        <p>A smart reading assistant that fetches book summaries, news highlights, and historical Wikipedia articles to bring context to your daily reads.</p>
+        <p><strong>Tech Stack:</strong> React, CSS, Wikipedia API, Google Books API, GNews API</p>
+        <p>
+          <a href="https://flashback-reader.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: '#007965', textDecoration: 'underline' }}>
+            Live Demo
+          </a>
+        </p>
       </div>
 
-      <div className="project-card">
-        <h3>To-Do List</h3>
-        <p>A simple to-do list app with add/remove functionality and local storage.</p>
-        <p><strong>Tech Stack:</strong> JavaScript, HTML, CSS</p>
-      </div>
     </div>
   </div>
 </section>
+
 
 
 <section className="skills" id="skills">
@@ -93,7 +101,7 @@ function App() {
     <div className="buttons">
       <a href="tel:+1234567890" className="btn">Call Me</a>
       <a href="mailto:mohithgowda4455@gmail.com" className="btn">Email Me</a>
-      <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="btn">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/mohith-gowda-jp-796955257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="btn">LinkedIn</a>
     </div>
   </div>
 </section>
@@ -102,7 +110,34 @@ function App() {
 
 <footer className="footer">
   <p>&copy; {new Date().getFullYear()} Mohith Gowda. All rights reserved.</p>
+  <div className="social-icons">
+    <a
+      href="mailto:mohithgowda4455@gmail.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Email"
+    >
+      <i className="fas fa-envelope"></i>
+    </a>
+    <a
+      href="https://www.linkedin.com/in/mohith-gowda-jp-796955257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      <i className="fab fa-linkedin"></i>
+    </a>
+    <a
+      href="https://github.com/Mohith4488"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="GitHub"
+    >
+      <i className="fab fa-github"></i>
+    </a>
+  </div>
 </footer>
+
 
     </div>
   );
