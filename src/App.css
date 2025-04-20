@@ -25,12 +25,12 @@ html {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  color: #4b38c0;
+  color: #311bc2;
   transition: color 0.3s;
 }
 
 .navbar li a:hover {
-  color: #6a11cb;
+  color: #6b06d7;
 }
 
 
@@ -209,7 +209,7 @@ section {
 }
 
 .contact-section .btn {
-  background-color: #6a11cb;
+  background-color: #007965;
   color: white;
   padding: 12px 24px;
   text-decoration: none;
@@ -258,6 +258,21 @@ section {
   color: #a594f9;
   transform: scale(1.1);
 }
+.resume-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #007965;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
+.resume-btn:hover {
+  background-color: #005e50;
+  transform: scale(1.1);
+}
 
 
