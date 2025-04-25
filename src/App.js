@@ -53,6 +53,23 @@ function App() {
   <div className="projects-content">
     <h2>Projects</h2>
     <div className="project-cards">
+
+    <div className="project-card">
+  <h3>Cricket – Quiz App</h3>
+  <p>An engaging and interactive cricket quiz app that challenges users with multiple-choice questions related to cricket history, records, and players.</p>
+  <p><strong>Tech Stack:</strong> React, JavaScript, CSS</p>
+  <p>
+    <a
+      href="https://quizcricket.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#007965', textDecoration: 'underline' }}
+    >
+      Live Demo
+    </a>
+  </p>
+</div>
+
     
       <div className="project-card">
         <h3>Future Diary</h3>
