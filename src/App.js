@@ -1,8 +1,22 @@
 import React from 'react';
 import './App.css';
 import profileImage from './Assets/img.jpg';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt } from 'react-icons/fa';
-import { SiExpress, SiMongodb } from 'react-icons/si';
+import { 
+  FaHtml5, 
+  FaCss3Alt, 
+  FaJs, 
+  FaReact, 
+  FaJava, 
+  FaPython, 
+  FaGitAlt, 
+  FaCode 
+} from 'react-icons/fa';
+
+import { 
+  SiMysql, 
+  SiC, 
+  SiTailwindcss 
+} from 'react-icons/si'
 
 
 
@@ -27,7 +41,7 @@ function App() {
 
           <h1>Hello!</h1>
           <h2>I'm Mohith Gowda J P</h2>
-          <p>I'm a curious and creative computer science enthusiast who loves building impactful full-stack solutions and solving real-world problems through code.</p>
+          <p>A final-year Computer Science Engineering student passionate about applying problem-solving skills to design innovative and user-friendly software solutions.</p>
         </div>
       </section>
 
@@ -49,12 +63,38 @@ function App() {
         </div>
       </section>
 
-      <section className="projects" id="projects">
+
+<section className="projects" id="projects">
   <div className="projects-content">
     <h2>Projects</h2>
     <div className="project-cards">
 
+
+<div className="project-card">
+  <img src={require('./Assets/farmers1.png')} alt="Farmer Support Portal" className="project-image" />
+  <h3>Farmer Support Portal</h3>
+  <p>
+    A full-stack web application for farmers to access government schemes, check daily market prices, 
+    and communicate directly with administrators. Admins can manage farmers, update schemes, post market prices, 
+    and respond to farmer queries.
+  </p>
+  <p><strong>Tech Stack:</strong> Java (JSP & Servlets), MySQL, HTML, CSS, TailwindCSS</p>
+  <p>
+    <a
+      href="https://github.com/Mohith4488/farmer-portal"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#007965', textDecoration: 'underline' }}
+    >
+      Live Demo
+    </a>
+  </p>
+</div>
+
+
+
     <div className="project-card">
+      <img src={require('./Assets/cricket.png')} alt="Farmer Support Portal" className="project-image" />
   <h3>Cricket – Quiz App</h3>
   <p>An engaging and interactive cricket quiz app that challenges users with multiple-choice questions related to cricket history, records, and players.</p>
   <p><strong>Tech Stack:</strong> React, JavaScript, CSS</p>
@@ -72,6 +112,7 @@ function App() {
 
     
       <div className="project-card">
+        <img src={require('./Assets/future-diary.png')} alt="Farmer Support Portal" className="project-image" />
         <h3>Future Diary</h3>
         <p>An interactive and creative time capsule web app where users can write messages to their future selves, get AI predictions, and enjoy engaging UI effects.</p>
         <p><strong>Tech Stack:</strong> React, JavaScript, CSS, react-confetti, custom AI logic</p>
@@ -83,6 +124,7 @@ function App() {
       </div>
 
       <div className="project-card">
+        <img src={require('./Assets/flashback.png')} alt="Farmer Support Portal" className="project-image" />
         <h3>Flashback Reader</h3>
         <p>A smart reading assistant that fetches book summaries, news highlights, and historical Wikipedia articles to bring context to your daily reads.</p>
         <p><strong>Tech Stack:</strong> React, CSS, Wikipedia API, Google Books API, GNews API</p>
@@ -98,23 +140,35 @@ function App() {
 </section>
 
 
-
 <section className="skills" id="skills">
   <div className="skills-content">
     <h2>My Skills</h2>
     <div className="skills-grid">
+
+      {/* Programming Languages */}
+      <div className="skill-card"><SiC color="#A8B9CC" size="2em" /> <p>C</p></div>
+      <div className="skill-card"><FaJava color="#f89820" size="2em" /> <p>Java</p></div>
+      <div className="skill-card"><FaPython color="#3776AB" size="2em" /> <p>Python</p></div>
+      <div className="skill-card"><FaJs color="#f0db4f" size="2em" /> <p>JavaScript</p></div>
+
+      {/* Frontend */}
       <div className="skill-card"><FaHtml5 color="#e34c26" size="2em" /> <p>HTML</p></div>
       <div className="skill-card"><FaCss3Alt color="#264de4" size="2em" /> <p>CSS</p></div>
-      <div className="skill-card"><FaJs color="#f0db4f" size="2em" /> <p>JavaScript</p></div>
+      <div className="skill-card"><SiTailwindcss color="#38B2AC" size="2em" /> <p>TailwindCSS</p></div>
       <div className="skill-card"><FaReact color="#61dbfb" size="2em" /> <p>React</p></div>
-      <div className="skill-card"><FaNodeJs color="#68a063" size="2em" /> <p>Node.js</p></div>
-      <div className="skill-card"><SiExpress color="#000000" size="2em" /> <p>Express</p></div>
-      <div className="skill-card"><SiMongodb color="#4db33d" size="2em" /> <p>MongoDB</p></div>
+
+      {/* Backend */}
+      <div className="skill-card"><FaCode color="#007396" size="2em" /> <p>JSP</p></div>
+
+      {/* Database */}
+      <div className="skill-card"><SiMysql color="#4479A1" size="2em" /> <p>MySQL</p></div>
+
+      {/* Tools */}
       <div className="skill-card"><FaGitAlt color="#f1502f" size="2em" /> <p>Git & GitHub</p></div>
+
     </div>
   </div>
 </section>
-
 
 {/* Contact Section */}
 <section className="contact-section" id="contact">
