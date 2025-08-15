@@ -41,7 +41,7 @@ function App() {
   Passionate about turning ideas into impactful code, I'm always eager to learn, grow, and collaborate on real-world projects. This portfolio reflects my journey, skills, and love for building meaningful solutions.
 </p>
 
-<a href="/Mohith_Gowda_Resume.pdf" download="MOHITH GOWDA J P.pdf" className="btn resume-btn">
+<a href="/Mohith-Gowda_Resume.pdf" download="MOHITH GOWDA J P.pdf" className="btn resume-btn">
   View Resume
 </a>
 
